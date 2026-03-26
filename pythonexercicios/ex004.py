@@ -1,6 +1,7 @@
-n=input('digite um número: ')
-print(n.isnumeric())
-
-a=input('agora digite um texto: ')
-print(a.isalpha())
-
+n=input('digite algo: ')
+print('o tipo primitivo é', type(n))
+print('Só tem espaços?', n.isspace())
+print('É um número?', n.isnumeric())
+print('é alfabetico?', n.isalpha())
+print('está em caixa alta?', n.isupper())
+print('está em caixa baixa?', n.islower())
