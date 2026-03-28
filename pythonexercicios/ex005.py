@@ -1,3 +1,4 @@
 n=int(input('digite um número: '))
-print(n+1,n-1)
-
+a=n-1
+s=n+1
+print(f'o antecessor de {n} é {a} e o sucessor é {s}')
